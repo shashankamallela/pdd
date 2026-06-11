@@ -1,0 +1,42 @@
+# Secrets and local config
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+.venv/
+.venv-*/
+venv/
+env/
+ENV/
+*.egg-info/
+.pytest_cache/
+
+# Local data and generated artifacts
+*.db
+backend/users.db
+backend/uploads/
+backend/ml_data/
+backend/models/
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+**/build/
+coverage/
+*.log
+*.iml
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
